@@ -15,11 +15,9 @@ from transformers import AutoModelForQuestionAnswering
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', type=str, default='gpt-3.5')
-# parser.add_argument('--dataset', type=str, default='pmdata')
 args = parser.parse_args()
 
 model = args.model
-# dataset = args.dataset
 
 openai.api_key = os.environ["openai_key"]
 genai.configure(api_key=os.environ["genai_key"])
@@ -67,7 +65,7 @@ def get_response(model, question, seed):
         ]
 
         url = 'https://api.openai.com/v1/chat/completions'
-        headers = {"Authorization": "Bearer {}".format("")}
+        headers = {"Authorization": "Bearer {}".format(openai.api_key)}
         data = {'model': 'gpt-4', 'messages': messages}
         response = requests.post(url, headers=headers, json=data).json()
 
