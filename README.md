@@ -36,7 +36,8 @@ To run the inference, please download the datasets and checkpoint from the follo
 
 **Checkpoint** (for HealthAlpaca): [Google Drive](https://drive.google.com/drive/folders/1JgxlptRjoQLOO3Eg9zv_a8SajW-nYpiA?usp=sharing)
 
-note: we are currently running another fine-tuning, we will release once the checkpoints are ready.
+> [!IMPORTANT]  
+> We are currently running another fine-tuning, we will release once the checkpoints are ready.
 
 **Datasets**
 
