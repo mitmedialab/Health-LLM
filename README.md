@@ -30,15 +30,6 @@ Activate the environment:
 
 <br>
 
-## Download
-
-To run the inference, please download the datasets and checkpoint from the following links:
-
-**Checkpoint** (for HealthAlpaca): [Google Drive](https://drive.google.com/drive/folders/1JgxlptRjoQLOO3Eg9zv_a8SajW-nYpiA?usp=sharing)
-
-> [!IMPORTANT]  
-> We are currently running another fine-tuning, we will release once the checkpoints are ready.
-
 **Datasets**
 
 1) PMData: [https://datasets.simula.no/pmdata/](https://datasets.simula.no/pmdata/)
